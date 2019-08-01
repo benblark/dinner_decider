@@ -1,0 +1,40 @@
+body {
+  padding: 25px;
+  font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #A1DED0;
+}
+
+a {
+  color: #A1DED0;
+}
+
+
+#navbar {
+	margin: auto;
+	display: block;
+}
+#logo {
+	margin: 0 auto;
+	display: block;
+}
+
+.bbq {
+	background-color: brown;
+}
+
+.chinese {
+	background-color: red;
+}
+
+.mexican {
+	background-color: green;
+}
+
+.southern {
+	background-color: blue;
+	color: white;
+}
+
+
+
+

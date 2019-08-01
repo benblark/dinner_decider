@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title><%= blocks.title %></title>
+	 <img src="/images/E-2.png" width = "150px" height = auto id="logo">
+	 
+
+	<link rel="stylesheet" href="/stylesheets/style.css">
+
+</head>
+<body>
+	<%- partial('partials/navbar') -%>
+	
+	<% if(typeof currentUser !== 'undefined' && currentUser !== null) { %>
+	<br>
+	<p>Hey <%= currentUser.username %>! </p>
+	<% } %>
+	<br>
+	<section class="container" background="green">
+		<%- body -%>
+	</section>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
