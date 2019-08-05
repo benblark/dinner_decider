@@ -7,7 +7,10 @@ router.get('/dinner-decider', function(req, res, next){
 		{message: "Chinese", tone: "chinese"},
 		{message: "Mexican", tone: "mexican"},
 		{message: "Southern", tone: "southern"},
-		{message: "Cuban", tone: "cuban"}
+		{message: "Cuban", tone: "cuban"},
+		{message: "Italian", tone: "italian"},
+		{message: "Indian", tone: "indian"},
+		{message: "Japanese", tone:"japanese"}
 	];
 
   res.locals.message = messages[Math.floor(Math.random() * messages.length)];
