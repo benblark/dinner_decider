@@ -8,20 +8,27 @@ a {
   color: #A1DED0;
 }
 
+ul {
+	display: inline;
+	margin: 0 auto;
+}
 ul li {
     display: inline;
     margin: 0 auto;
-
  
 }
 
-.navbar {
-	display: block;
-	font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
-	background-color: white;
-	
-
-}
+ .navbar {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 20px;
+      letter-spacing: 4px;
+      background-color: white;
+      text-align: center
+  }
 
 #logo {
 	margin: 0 auto;
@@ -30,29 +37,51 @@ ul li {
 
 .bbq {
 	background-color: brown;
+	font-weight: bold;
+
 }
 
 .chinese {
 	background-color: red;
 	color: yellow;
-	background-image: url('/img/chinese.png');
+	font-weight: bold;
 }
 
 .mexican {
-	background-color: green;
-	color: red;
+	background-color: #239E46;
+	color: #BE0027;
+	font-weight: bold;
 }
 
 .southern {
 	background-color: blue;
 	color: white;
+	font-weight: bold;
 }
 
 .cuban {
 	background-color: red;
-	color: blue;
+	color: white;
+	font-weight: bold;
 }
 
+.indian {
+	background-color: #FF9A30;
+	color: #098901;
+	font-weight: bold;
+}
+
+.japanese {
+	background-color: white;
+	color: red;
+	font-weight: bold;
+}
+
+.italian {
+	background-color: #098901;
+	color: white;
+	font-weight: bold;
+}
 
 
 

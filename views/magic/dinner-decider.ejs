@@ -2,14 +2,15 @@
 <%block('title', 'Dinner Decider') %>
 
 		<h1>You asked for an idea for Dinner!</h1>
-		<p>Here is an option:</p>
-		<div class="<%= message.tone %>"> <%=message.message %> </div>
+			<p>Here is an option:</p>
+				<div class="<%= message.tone %>"> <%=message.message %> </div>
+		<br>
+				<img src="<%= message.img %>" width = "150px" height = auto>
+					<div class="<%= message.local %>"> </div>
 		<br>
 
-		<img src="/images/bbq.png" width = "150px" height = auto>
 		<br>
-		<br>
-		<button id="shake">I don't like that cuisine</button>
+			<button id="shake">I don't like that cuisine</button>
 
 		<script type="text/javascript">
 			var button = document.getElementById('shake');

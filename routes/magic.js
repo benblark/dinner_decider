@@ -3,14 +3,14 @@ var router = express.Router();
 
 router.get('/dinner-decider', function(req, res, next){
 	var messages = [
-		{message: "BBQ", tone: "bbq"},
-		{message: "Chinese", tone: "chinese"},
-		{message: "Mexican", tone: "mexican"},
-		{message: "Southern", tone: "southern"},
-		{message: "Cuban", tone: "cuban"},
-		{message: "Italian", tone: "italian"},
-		{message: "Indian", tone: "indian"},
-		{message: "Japanese", tone:"japanese"}
+		{message: "BBQ- Try, Blue Oak BBQ! Mid City", tone: "bbq", img: "/images/bbq.png"},
+		{message: "Chinese- Try, Dian Xin! Downtown!", tone: "chinese", img: "/images/chinese.png" },
+		{message: "Mexican- Try, Barracuda! Tchoup", tone: "mexican", img: "/images/mexican.png", },
+		{message: "Southern- Try, Gus' World Famous Fried Chicken! Downtown", tone: "southern", img: "/images/southern.png" },
+		{message: "Cuban- Try, Que Rico Cuban Cafe! Uptown", tone: "cuban", img: "/images/cuban.png" },
+		{message: "Italian- Try, Oak Oven! Jefferson", tone: "italian", img: "/images/italian.png" },
+		{message: "Indian- Try, Saffron Nola! Uptown", tone: "indian", img: "/images/indian.png" },
+		{message: "Japanese- Try, Shogun! Metairie", tone:"japanese", img: "/images/japanese.png" }
 	];
 
   res.locals.message = messages[Math.floor(Math.random() * messages.length)];
