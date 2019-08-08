@@ -17,6 +17,10 @@ ul li {
     margin: 0 auto;
  
 }
+ span {
+ 	display: inline-block;
+ 
+ }
 
  .navbar {
       padding-top: 10px;
@@ -27,8 +31,28 @@ ul li {
       font-size: 20px;
       letter-spacing: 4px;
       background-color: white;
-      text-align: center
+      text-align: center;
   }
+
+
+.insta {
+	color: black;
+
+
+
+}
+
+h2 {
+	text-align: center;
+}
+
+footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px; 
+   }
+
 
 #logo {
 	margin: 0 auto;
